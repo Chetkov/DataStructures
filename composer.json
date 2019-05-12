@@ -1,0 +1,22 @@
+{
+    "name": "v.chetkov/data-structures",
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Валерий Четков",
+            "email": "chetkov.valeriy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Chetkov\\DataStructures\\": "src/",
+            "Tests\\Chetkov\\DataStructures\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
