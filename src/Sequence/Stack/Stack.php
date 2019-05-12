@@ -16,7 +16,7 @@ class Stack extends AbstractSequence
      */
     public function push($element): Stack
     {
-        return $this->put($element);;
+        return $this->put($element);
     }
 
     /**
